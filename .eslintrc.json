@@ -30,10 +30,14 @@
         }
       },
     "rules": {
-        "import/no-unresolved": "off",
-        "import/extensions": "off",
-        "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx"] }],
-        "comma-dangle": "off",
-        "react/jsx-closing-bracket-location": "off"
-    }
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx"] }],
+    "comma-dangle": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "react/function-component-definition": ["warn", {
+      "namedComponents": "arrow-function",
+      "unnamedComponents": "arrow-function" 
+    }]
+  }
 }
