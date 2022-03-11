@@ -35,6 +35,8 @@
     ],
     "linebreak-style": "off", //исправление ошибки разделителей CRLF и LF
     "react/no-unused-prop-types": "warn",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "object-curly-newline": "warn",
+    "react/jsx-one-expression-per-line": "warn"
   }
 }

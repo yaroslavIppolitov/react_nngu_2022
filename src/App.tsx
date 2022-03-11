@@ -1,21 +1,18 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import NameComponent from './NameComponent';
-import Counter from './Counter';
-import Form from './Form';
+import data from './components/backend/Data/Data';
+import Header from './components/frontend/header/header';
+import Products from './components/frontend/products/products';
 
-const App = () => (
-  <div>
-    <p>React App</p>
-    <NameComponent firstname="Petr" lastname="I" />
-    <NameComponent firstname="Aleksandr" lastname="II" />
-    <NameComponent firstname="Katherine" lastname="II" />
-    <Counter title="Orange" />
-    <Counter title="Pineapple" />
-    <Form title="AUTH" />
-    <Form title="ReG" />
-  </div>
-);
+const App = () => {
+  const { productItems } = data;
+  return (
+    <div>
+      <Header />
+      <Products />
+    </div>
+  );
+};
 
 export default App;
