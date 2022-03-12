@@ -8,9 +8,7 @@ type productItemsPropsType = {
   image: string;
 };
 
-// type numbersPropsType = number[];
 const ProductItem = (props: productItemsPropsType) => {
-  //   const { id, name, price, image } = props;
   const { id, name, price, image } = props;
   const [count, setCount] = React.useState('Добавить в корзину');
   const addHandler = () => {
