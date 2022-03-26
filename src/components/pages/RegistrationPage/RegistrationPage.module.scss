@@ -1,4 +1,8 @@
+.registration_page{
+    border:1px;
 
+    
+}
 .registration_window{
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
@@ -15,18 +19,19 @@
     width: 50%;
   }
 
+  button:hover {
+    opacity:1;
+  }
+
   button {
-    background-color: orange;
+    background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
-  }
-  
-  button:hover {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   input[type=text], input[type=password] {
@@ -50,4 +55,8 @@
   
   .remember_checkbox{
     margin-bottom:15px;
+  }
+  
+  .passwordsMatches{
+    background-color: red;
   }

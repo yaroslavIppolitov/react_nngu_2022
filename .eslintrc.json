@@ -37,6 +37,17 @@
     "react/no-unused-prop-types": "warn",
     "no-unused-vars": "warn",
     "object-curly-newline": "warn",
-    "react/jsx-one-expression-per-line": "warn"
+    "react/jsx-one-expression-per-line": "warn",
+    // "label-has-associated-control": "warn"
+    "max-len": [
+      "error",
+      {
+        "code": 200
+      }
+    ],
+    "jsx-a11y/anchor-has-content": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/require-default-props": "off",
+    "no-constant-condition": "off"
   }
 }

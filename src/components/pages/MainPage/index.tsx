@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../Input/Data';
 import PageWrapper from '../../common/PageWrapper';
-import ProductCard from '../../common/ProductCard';
+import ProductCard from '../../ProductCard';
 import style from './MainPage.module.scss';
 
 const MainPage = () => (
